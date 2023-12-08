@@ -7,10 +7,7 @@ const main = async () => {
     for (let line of lines) {
         console.log(line);
     }
-
-    console.log("Nothing here");
 };
-
 
 const readFile = (filename) => fs.readFileSync(path.join(__dirname, filename), "utf8").split("\n");
 

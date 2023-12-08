@@ -1,0 +1,17 @@
+{
+  "name": "day-06",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "compile": "browserify %npm_package_name%.js -t brfs -s %npm_package_name% -o %npm_package_name%-compiled.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "brfs": "^2.0.2",
+    "path": "^0.12.7"
+  }
+}
